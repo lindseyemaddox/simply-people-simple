@@ -1,0 +1,564 @@
+/*************RESPONSIVE CODE*****************/
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+  .button-group button {
+  	padding: 9px 11px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 13.5px;
+  }
+  #header h1 {
+  	font-size: 2em;
+  }
+  #header h2 {
+  	font-size: 1.3em;
+  	padding-bottom: 30px;
+  }
+  h3 {
+  	font-size: 1.6em;
+  }
+  h4, #header h4 {
+  	font-size: 1.2em;
+  	font-weight: 400;
+  }
+  header nav ul > li {
+  	padding: 0 .5em;
+  }
+  header div#mainLogo {
+  	margin-top: -17px;
+  }
+  section.white {
+  	padding: 72px 0;
+  }
+  .subfooter {
+  	padding: 20px 0;
+  }
+  footer {
+  	padding: 75px 0 50px;
+  }
+  footer .centerCol {
+  	width: 35%;
+  	margin-left: 9%;
+  }
+  .grid .portfolioItem {
+  	height: 200px;
+  }
+  .button-group button {
+  	letter-spacing: 1px;
+  }
+  .info .socials a > span {
+  	font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 13px;
+  }
+  #opacity.darken {
+  	opacity: .1;
+    -webkit-transition: all, 400ms, ease;
+    -moz-transition: all, 400ms, ease;
+    -o-transition: all, 400ms, ease;
+    -ms-transition: all, 400ms, ease;
+    transition: all, 400ms, ease;	  		
+  }
+  #metalwork-link {
+  	display: none;
+  }
+  header {
+  	height: 60px;
+	  div#mainLogo {
+	  	margin: -35px 0 0 0;
+		a {
+			display: block;
+			text-align: center;
+		}  	
+		.icon-logo-main-v2 {
+		  	font-size: 10em;
+		}
+	}
+	nav {
+	  	position: absolute;
+	  	width: 30%;
+	  	right: 0;
+	  	top: -23px;
+	    -webkit-transition: height, 400ms, ease;
+	    -moz-transition: height, 400ms, ease;
+	    -o-transition: height, 400ms, ease;
+	    -ms-transition: height, 400ms, ease;
+	    transition: height, 400ms, ease;	  		
+	  	#nav {
+		  	display: block;
+		  	color: #fff;
+		  	cursor: pointer;
+		  	position: absolute;
+		  	top: 9px;
+		  	right: -10px;
+		  	font-size: 7em;
+		  	&:hover {
+		  		color: @blue;
+		  		.transition;
+		  	}
+		}
+	  	ul {
+	  		height: 0;
+	  		overflow: hidden;
+	  		&.expand {
+	  			height: auto;
+				text-align: right;
+				margin-top: 90px;
+				overflow: visible;
+	  		}
+	  		li {
+	  			display: block;
+	  			line-height: 3em;
+	  			padding: 0;
+	  			span.icon-arrow-double:hover {
+	  				color: @yellow;
+	  			}
+	  			a:hover {
+	  				color: @yellow;
+	  			}
+	  			&.drop {
+	  				margin: 0 -30px -20px 0;
+	  				ul {
+	  					position: relative;
+	  					background-color: transparent;
+	  					margin: 0px -20px 20px -30px;
+	  					li {
+	  						margin: 0;
+	  					}
+	  					&.expanded {
+	  						margin-bottom: 25px!important;
+	  						height: auto;
+	  					}
+	  				}
+	  			}
+	  			span.icon-arrow-double {
+	  				top: 5px;
+	  			}
+	  		}
+	  	}
+  	}
+  }
+  #metalwork .four article {
+  	width: 47%;
+  	&:first-child {
+  		display: none;
+  	}
+  	&:last-child {
+  		display: none;	
+  	}
+  }
+  .fixed {
+  	height: 140px;
+  }
+  .grid .portfolioItem {
+  	height: 180px;
+  }
+  .button-group button {
+  	letter-spacing: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 12.5px;
+  }
+  header nav #nav {
+  	top: 7px;
+  }
+  #header video {
+  	margin-top: 0;
+  }
+  .grid .portfolioItem {
+  	height: 160px;
+  }
+  h3 {
+  	padding-bottom: 35px;
+  }
+  .button-group button {
+  	padding: 9px 10px;
+  }
+  .info h3 {
+  	font-size: 1em;
+  	line-height: 1.5em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 12px;
+  }
+  #header video {
+  	margin-top: 60px;
+  }
+  header nav #nav {
+  	top: 13px;
+  }
+  header nav ul li.drop ul {
+  	margin-right: -10px;
+  }
+  footer .leftCol {
+  	width: 20%;
+  	.icon-iso-badge {
+  		font-size: 10em;
+  	}
+  }
+  footer .centerCol {
+  	width: 42%;
+  }
+  .grid .portfolioItem {
+  	height: 140px;
+  }
+  .btn {
+  	font-size: 1em;
+  }
+  .twoCol a.fancyboxImg {
+  	width: 40%;
+  }
+  .twoCol .text {
+  	width: 55%;
+  }
+  p {
+  	margin-bottom: 30px;
+  }
+  .button-group button {
+  	padding: 9px 6px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+	#header video {
+		width: 120%;
+	}
+	section.white, section.dark {
+		padding: 60px 0;
+	}
+	.highlight span {
+		width: 15%;
+	}
+	.highlight .text {
+		width: 84%;
+	}
+  .button-group button {
+  	padding: 9px 2px;
+  }
+  .info .socials a > span {
+  	margin-right: .05em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+	#header video {
+		width: 130%;
+	}
+	#header h1 {
+		font-size: 1.8em;
+	}
+	.four article {
+		width: 47%;
+		&:first-child {
+			margin-bottom: 50px;
+		}
+		&:nth-child(2) {
+			margin-bottom: 50px;
+		}
+	}
+	#metalwork .four article {
+		margin-bottom: 0;
+	}
+	.grid .portfolioItem {
+		width: 49%;
+		height: 210px;
+	}
+	footer ul > li ul li {
+		padding-left: 20px;
+	}
+	.grid .portfolioItem .container {
+		opacity: 1;
+	}
+	.grid .portfolioItem img {
+		opacity: .2;
+	}
+	.dark.slider {
+		display: none;
+	}
+	section.sliderComp {
+		padding-bottom: 0;
+	}
+	.cta.alt h4 {
+		width: 83%;
+	}
+  .button-group button {
+  	padding: 9px 22px;
+  }
+  .info {
+  	width: 100%;
+  }
+  .info .socials {
+  	margin: 0 0 40px;
+  }
+  .formContainer {
+  	width: 100%;
+  	margin: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+	header div#mainLogo {
+		width: 50%;
+		margin: -20px 0 0 0;
+	}
+	header div#mainLogo .icon-logo-main-v2 {
+		font-size: 8em;
+	}
+	header nav ul li {
+		line-height: 3.4em;
+	}
+	#header video {
+		width: 160%;
+	}
+	#header .inner div {
+		top: 850px;
+	}
+	header nav ul li.drop ul {
+		margin-right: -5px;
+	}
+	header nav ul li span.icon-arrow-double {
+		top: 7px;
+	}
+	.grid .portfolioItem {
+		height: 190px;
+	}
+	footer .leftCol {
+		width: 100%;
+		margin-bottom: 60px;
+	}
+	footer .centerCol {
+		width: 62%;
+		margin-left: 0;
+		li {
+			padding-left: 0;
+			li {
+				padding-left: 20px;
+			}
+		}
+	}
+	footer .rightCol {
+		width: 37%;
+		margin-left: 0;
+	}
+	#footerLogo {
+		display: block;
+		margin-bottom: 80px;
+		.icon-logo-main-v2 {
+			font-size: 16em;
+		}
+	}
+	footer div#mainLogo {
+		display: inline-block;
+		width: 30%;
+		vertical-align: top;
+	}
+	footer .address {
+		display: inline-block;
+		width: 60%;
+		margin-left: 9%;
+		p {
+			font-size: 1.3em;
+			line-height: 1.7em;
+			text-align: left;
+		}
+	}
+	ul.twoCol {
+		width: 100%;
+		margin: 0;
+		&.two {
+			margin: 0 0 50px;
+		}
+	}
+	h2 {
+		padding-bottom: 40px;
+	}
+	ul.twoCol.two {
+		margin-bottom: 0;
+	}
+	.highlight span {
+		width: 20%;
+	}
+	.highlight .text {
+		width: 79%;
+	}
+	.twoCol a.fancyboxImg {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.twoCol .text {
+		width: 100%;
+	}
+	.cta h5 {
+		margin-top: .5em;
+	}
+	.cta h5 span {
+		display: none;
+	}
+	.cta .btn {
+		margin-top: 0;
+	}
+  .button-group button {
+  	padding: 9px 13px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+	header nav {
+		width: 40%;
+	}
+	header nav ul.expand {
+		margin-right: 10%;
+	}
+	#header video {
+		width: 200%;
+	}
+	#header .inner div {
+		top: 837px;
+	}
+	.grid .portfolioItem {
+		height: 150px;
+	}
+	#footerLogo .icon-logo-main-v2 {
+		font-size: 13em;
+	}
+	.cta.alt h4 {
+		width: 73%;
+	}
+  .button-group button {
+  	padding: 9px 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+	header div#mainLogo {
+		margin-top: -14px;
+	}
+	header div#mainLogo .icon-logo-main-v2 {
+		font-size: 5em;
+	}
+	header {
+		height: 32px;
+		margin-top: 40px;
+	}
+	header .inner #contactLink {
+		top: -30px;
+	}
+	header nav {
+		top: -37px;
+		width: 50%;
+	}
+	header .inner #contactLink a {
+		font-size: .7em;
+	}
+	#header .inner div {
+	    top: 845px;
+	}
+	#header video {
+		width: 130%;
+		margin-top: 70px;
+	}
+	#header h1 {
+		font-size: 1.5em;
+	}
+	#header h2 {
+		font-size: 1em;
+	}
+	#header h4 {
+		font-size: 1em;
+	}
+	#metalwork .four article {
+		width: 100%;
+		&:nth-child(2) {
+			margin-bottom: 30px;
+		}
+	}
+	.four article {
+		width: 100%;
+		&:nth-child(3) {
+			margin-bottom: 50px;
+		}
+	}
+	h3 {
+		font-size: 1.4em;
+	}
+	.grid .portfolioItem {
+		width: 100%;
+		height: 230px;
+	}
+	#footerLogo {
+		margin-bottom: 40px;
+	}
+	#footerLogo .icon-logo-main-v2 {
+		font-size: 10em;
+	}
+	footer .leftCol {
+		margin-bottom: 30px;
+	}
+	footer .leftCol .icon-iso-badge {
+		font-size: 5em;
+	}
+	footer .address {
+		width: 61%;
+		margin-left: 7%;
+	}
+	footer .address p {
+		font-size: 1em;
+	}
+	footer .centerCol, footer .rightCol {
+		width: 100%;
+	}
+	footer .rightCol ul > li a {
+		margin-bottom: 22px;
+	}
+	footer .rightCol li {
+		padding-left: 0;
+	}
+	.subfooter p {
+		font-size: .8em;
+		text-align: center;
+	}
+	.highlight span {
+		width: 30%;
+	}
+	.highlight .text {
+		width: 68%;
+	}
+	.cta h5 {
+		float: none;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.cta .btn {
+		float: none;
+		width: 100%;
+		letter-spacing: 1px;
+		display: block;
+		text-align: center;
+	}
+	.cta.alt .icon-i-punch {
+		display: none;
+	}
+	.cta.alt h4 {
+		width: 100%;
+	}
+	.formContainer .left, .formContainer .right {
+		width: 100%;
+		margin: 0;
+	}
+}

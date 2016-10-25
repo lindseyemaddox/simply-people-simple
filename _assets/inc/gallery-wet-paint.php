@@ -1,0 +1,8 @@
+<div class="hidden">
+	<a class="fancybox" rel="wet-paint" href="/_assets/img/galleries/Wet-Paint-Line1.jpg" title="Metal Wet Paint Line"><img alt="Metal Wet Paint Line" class="lazy" property="Photograph" src="/_assets/img/galleries/Wet-Paint-Line1.jpg"/></a>
+	<a class="fancybox" rel="wet-paint" href="/_assets/img/galleries/Wet-Paint-Line2.jpg" title="Wet Paint Line"><img alt="Wet Paint Line" class="lazy" property="Photograph" src="/_assets/img/galleries/Wet-Paint-Line2.jpg"/></a>
+	<a class="fancybox" rel="wet-paint" href="/_assets/img/galleries/Wet-Paint-Line3.jpg" title="Sheet Metal Wet Paint"><img alt="Sheet Metal Wet Paint" class="lazy" property="Photograph" src="/_assets/img/galleries/Wet-Paint-Line3.jpg"/></a>
+	<a class="fancybox" rel="wet-paint" href="/_assets/img/galleries/Wet-Paint-Line4.jpg" title="Wet Painting Metal"><img alt="Wet Painting Metal" class="lazy" property="Photograph" src="/_assets/img/galleries/Wet-Paint-Line4.jpg"/></a>
+	<a class="fancybox" rel="wet-paint" href="/_assets/img/galleries/Wet-Paint-Line5.jpg" title="Wet Painting Line"><img alt="Wet Painting Line" class="lazy" property="Photograph" src="/_assets/img/galleries/Wet-Paint-Line5.jpg"/></a>
+	<a class="fancybox" rel="wet-paint" href="/_assets/img/galleries/Wet-Paint-Line6.jpg" title="Metal Wet Paining Line"><img alt="Metal Wet Paining Line" class="lazy" property="Photograph" src="/_assets/img/galleries/Wet-Paint-Line6.jpg"/></a>
+</div>

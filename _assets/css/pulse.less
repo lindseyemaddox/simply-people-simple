@@ -1,0 +1,36 @@
+.fancybox [class^="icon-"],
+.fancybox [class*=" icon-"] {
+  color: @yellow;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 2em;
+  transition: all 400ms ease;
+}
+.fancybox:hover [class^="icon-"],
+.fancybox:hover [class*=" icon-"] {
+  font-size: 4em;
+  bottom: 7px;
+  right: 7px;
+  color: #fff;
+  animation: none;
+}
+.fancybox .icon-plus {
+  animation: blink 2s infinite;
+  text-shadow: 0px 0px 3px @blue;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0.5;
+    transform: scale(1, 1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.7, 1.7);
+  }
+  100% {
+    opacity: 0.5;
+    transform: scale(1, 1);
+  }
+}
